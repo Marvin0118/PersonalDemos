@@ -1,0 +1,15 @@
+//
+//  MethodSwizzPrefix.pch
+//  MethodSwizz
+//
+//  Created by MccRee on 2017/9/13.
+//  Copyright © 2017年 MccRee. All rights reserved.
+//
+
+#ifndef MethodSwizzPrefix_pch
+#define MethodSwizzPrefix_pch
+
+#import "MRLog.h"
+#import "UIViewController+MethodSwizz.h"
+
+#endif /* MethodSwizzPrefix_pch */

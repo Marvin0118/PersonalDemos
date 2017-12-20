@@ -1,0 +1,19 @@
+//
+//  TwoTableView-Prefix.pch
+//  TwoTableView
+//
+//  Created by MccRee on 2017/9/7.
+//  Copyright © 2017年 MccRee. All rights reserved.
+//
+
+#ifndef TwoTableView_Prefix_pch
+#define TwoTableView_Prefix_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+//屏幕高度
+#define H [UIScreen mainScreen].bounds.size.height
+#define W [UIScreen mainScreen].bounds.size.width
+
+
+#endif /* TwoTableView_Prefix_pch */
