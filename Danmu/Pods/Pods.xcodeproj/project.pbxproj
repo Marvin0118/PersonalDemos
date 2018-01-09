@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		057951B79A554C2284B860AC8DD80611 /* HJDanmaku-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FD57A183BA0E22EDE71C62C3F3CADC8 /* HJDanmaku-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1C92096FC3E2C9AC23EFE9F60B86CEBB /* HJDanmakuDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D5000D8E63DA23F8AD23D9EC0D02732 /* HJDanmakuDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2AF45DDC3152A2613EAD9BBEBCF6F5BC /* Pods-Danmu-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A60A6E439160C28EBFB07A61555B126 /* Pods-Danmu-dummy.m */; };
+		39D9604866661EA4269722257006BA75 /* HJDanmakuConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = F5205170C3FB070999AF065AD44828A0 /* HJDanmakuConfiguration.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		49E4EC87FCA0165441158F43A9DB8FDA /* Pods-Danmu-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1ED241801C044A9987A3019B89357ABD /* Pods-Danmu-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		612B723F9A841BB82DB2366ED4FD094A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */; };
+		87FE46FD7E5A368806B0B268EAFA5C79 /* HJDanmakuView.h in Headers */ = {isa = PBXBuildFile; fileRef = F0E727F3049807A8657192E78781168B /* HJDanmakuView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		88E758E3501D3CBF2B0A38BABEC5509E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		8E22B4BCECBB1854E755A9FBB9036C66 /* HJDanmaku.h in Headers */ = {isa = PBXBuildFile; fileRef = 282AD489C94700B8CC4360D324A9A657 /* HJDanmaku.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		950F7FCDF3C0764B38C68E4D97885CEE /* HJDanmakuModel.h in Headers */ = {isa = PBXBuildFile; fileRef = B1A0B0EF2AE678BE7FC0281E1BEBC51B /* HJDanmakuModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A035B8789FDBFBB50981023AC66903BB /* HJDanmaku-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 24D829C2B5496DA4982EB1E0F653542F /* HJDanmaku-dummy.m */; };
+		A879CBECD06803F6BEBD854985652A02 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		D946B75D2880D27B8853D77A243E84C4 /* HJDanmakuModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 437A10A9930E12AD3A6706E092D5191A /* HJDanmakuModel.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		D9DDB6CEF647528B9F8B1808384F1E8A /* HJDanmakuCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C96D01C77B40C8BB9CACDBD2074237FD /* HJDanmakuCell.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		DCDCD6DE127E26C002EAE3B33C341160 /* HJDanmakuCell.h in Headers */ = {isa = PBXBuildFile; fileRef = B84B9BFCD7AF3F2DE0D4382FF2E2A320 /* HJDanmakuCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E9BC605598409D3EE6E10C6C825E0E37 /* HJDanmakuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4210476601268B6AA0678B7C272DFEC2 /* HJDanmakuView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		F54BA1E9E476BB213D1E5C26EE7F4E3B /* HJDanmakuConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 49C1800E27A76B6FA69EC23E8B95A4CA /* HJDanmakuConfiguration.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1B9EEB9536C3B7F3C573847B940D010F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C3D0E84F7D3FA060E7A76AADD24CB508;
+			remoteInfo = HJDanmaku;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		123C5D99668C14295F7D478A2A1FD0EB /* Pods-Danmu-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Danmu-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1ED241801C044A9987A3019B89357ABD /* Pods-Danmu-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Danmu-umbrella.h"; sourceTree = "<group>"; };
+		206750DD2ED45C6F0A356B35FB0AD089 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		24D829C2B5496DA4982EB1E0F653542F /* HJDanmaku-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HJDanmaku-dummy.m"; sourceTree = "<group>"; };
+		282AD489C94700B8CC4360D324A9A657 /* HJDanmaku.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HJDanmaku.h; path = HJDanmaku/HJDanmaku.h; sourceTree = "<group>"; };
+		28C32E877979F3FFC033C0D4B695CEEA /* HJDanmaku-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HJDanmaku-prefix.pch"; sourceTree = "<group>"; };
+		2FD57A183BA0E22EDE71C62C3F3CADC8 /* HJDanmaku-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HJDanmaku-umbrella.h"; sourceTree = "<group>"; };
+		344AAC3737EC10F42C7085E847EF636A /* HJDanmaku.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = HJDanmaku.framework; path = HJDanmaku.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B7A4E5EAAC0746A1400FF73A6F38936 /* Pods-Danmu-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Danmu-frameworks.sh"; sourceTree = "<group>"; };
+		4210476601268B6AA0678B7C272DFEC2 /* HJDanmakuView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HJDanmakuView.m; path = HJDanmaku/HJDanmakuView.m; sourceTree = "<group>"; };
+		437A10A9930E12AD3A6706E092D5191A /* HJDanmakuModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HJDanmakuModel.m; path = HJDanmaku/HJDanmakuModel.m; sourceTree = "<group>"; };
+		4381C9FDBFC77E5F17BD5445C17330FD /* Pods-Danmu.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Danmu.modulemap"; sourceTree = "<group>"; };
+		49C1800E27A76B6FA69EC23E8B95A4CA /* HJDanmakuConfiguration.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HJDanmakuConfiguration.m; path = HJDanmaku/HJDanmakuConfiguration.m; sourceTree = "<group>"; };
+		49CDEF9991E485C7591A2AAE8AECB90B /* Pods_Danmu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Danmu.framework; path = "Pods-Danmu.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		577434511E375BAC286CE0C32663C883 /* HJDanmaku.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = HJDanmaku.modulemap; sourceTree = "<group>"; };
+		5A60A6E439160C28EBFB07A61555B126 /* Pods-Danmu-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Danmu-dummy.m"; sourceTree = "<group>"; };
+		5BA4E08259458788423E90E681D075B1 /* Pods-Danmu.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Danmu.release.xcconfig"; sourceTree = "<group>"; };
+		8F15C703A0BDABEE9F333DFB0A325168 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D5000D8E63DA23F8AD23D9EC0D02732 /* HJDanmakuDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HJDanmakuDefines.h; path = HJDanmaku/HJDanmakuDefines.h; sourceTree = "<group>"; };
+		B1A0B0EF2AE678BE7FC0281E1BEBC51B /* HJDanmakuModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HJDanmakuModel.h; path = HJDanmaku/HJDanmakuModel.h; sourceTree = "<group>"; };
+		B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		B84B9BFCD7AF3F2DE0D4382FF2E2A320 /* HJDanmakuCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HJDanmakuCell.h; path = HJDanmaku/HJDanmakuCell.h; sourceTree = "<group>"; };
+		C96D01C77B40C8BB9CACDBD2074237FD /* HJDanmakuCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HJDanmakuCell.m; path = HJDanmaku/HJDanmakuCell.m; sourceTree = "<group>"; };
+		D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		E5240C13305FD8B4A1495AA47E94D327 /* Pods-Danmu-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Danmu-acknowledgements.plist"; sourceTree = "<group>"; };
+		EEEE84E2ADD2015885D21F0516B2E8BD /* HJDanmaku.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HJDanmaku.xcconfig; sourceTree = "<group>"; };
+		F0E727F3049807A8657192E78781168B /* HJDanmakuView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HJDanmakuView.h; path = HJDanmaku/HJDanmakuView.h; sourceTree = "<group>"; };
+		F5205170C3FB070999AF065AD44828A0 /* HJDanmakuConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HJDanmakuConfiguration.h; path = HJDanmaku/HJDanmakuConfiguration.h; sourceTree = "<group>"; };
+		FA60668FEB054C7FD59E1C4444C54459 /* Pods-Danmu.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Danmu.debug.xcconfig"; sourceTree = "<group>"; };
+		FCCD559B1CD3B1179797B5BE54F25A5F /* Pods-Danmu-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Danmu-resources.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		106C14354FC7037696A231A4210DD84E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A879CBECD06803F6BEBD854985652A02 /* Foundation.framework in Frameworks */,
+				612B723F9A841BB82DB2366ED4FD094A /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5628149A519D930236DD28B20D419CF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88E758E3501D3CBF2B0A38BABEC5509E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0BAD555AACF5446F03C78C60DA080686 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AB83D3158EA2BE2097CAD436B2D3F66B /* Pods-Danmu */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		3D7DAFFD655FE9D653E3C91C1AEF3720 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AB5899C9C8A6E11EB64EDBD2FD5A58DC /* HJDanmaku */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				438B396F6B4147076630CAEFE34282C1 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		438B396F6B4147076630CAEFE34282C1 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */,
+				B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				3D7DAFFD655FE9D653E3C91C1AEF3720 /* Pods */,
+				BC2A32E0AE3FE988BE94F65A03228D77 /* Products */,
+				0BAD555AACF5446F03C78C60DA080686 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9A10753CC0A777422278191019AF830A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				577434511E375BAC286CE0C32663C883 /* HJDanmaku.modulemap */,
+				EEEE84E2ADD2015885D21F0516B2E8BD /* HJDanmaku.xcconfig */,
+				24D829C2B5496DA4982EB1E0F653542F /* HJDanmaku-dummy.m */,
+				28C32E877979F3FFC033C0D4B695CEEA /* HJDanmaku-prefix.pch */,
+				2FD57A183BA0E22EDE71C62C3F3CADC8 /* HJDanmaku-umbrella.h */,
+				8F15C703A0BDABEE9F333DFB0A325168 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/HJDanmaku";
+			sourceTree = "<group>";
+		};
+		AB5899C9C8A6E11EB64EDBD2FD5A58DC /* HJDanmaku */ = {
+			isa = PBXGroup;
+			children = (
+				282AD489C94700B8CC4360D324A9A657 /* HJDanmaku.h */,
+				B84B9BFCD7AF3F2DE0D4382FF2E2A320 /* HJDanmakuCell.h */,
+				C96D01C77B40C8BB9CACDBD2074237FD /* HJDanmakuCell.m */,
+				F5205170C3FB070999AF065AD44828A0 /* HJDanmakuConfiguration.h */,
+				49C1800E27A76B6FA69EC23E8B95A4CA /* HJDanmakuConfiguration.m */,
+				9D5000D8E63DA23F8AD23D9EC0D02732 /* HJDanmakuDefines.h */,
+				B1A0B0EF2AE678BE7FC0281E1BEBC51B /* HJDanmakuModel.h */,
+				437A10A9930E12AD3A6706E092D5191A /* HJDanmakuModel.m */,
+				F0E727F3049807A8657192E78781168B /* HJDanmakuView.h */,
+				4210476601268B6AA0678B7C272DFEC2 /* HJDanmakuView.m */,
+				9A10753CC0A777422278191019AF830A /* Support Files */,
+			);
+			name = HJDanmaku;
+			path = HJDanmaku;
+			sourceTree = "<group>";
+		};
+		AB83D3158EA2BE2097CAD436B2D3F66B /* Pods-Danmu */ = {
+			isa = PBXGroup;
+			children = (
+				206750DD2ED45C6F0A356B35FB0AD089 /* Info.plist */,
+				4381C9FDBFC77E5F17BD5445C17330FD /* Pods-Danmu.modulemap */,
+				123C5D99668C14295F7D478A2A1FD0EB /* Pods-Danmu-acknowledgements.markdown */,
+				E5240C13305FD8B4A1495AA47E94D327 /* Pods-Danmu-acknowledgements.plist */,
+				5A60A6E439160C28EBFB07A61555B126 /* Pods-Danmu-dummy.m */,
+				3B7A4E5EAAC0746A1400FF73A6F38936 /* Pods-Danmu-frameworks.sh */,
+				FCCD559B1CD3B1179797B5BE54F25A5F /* Pods-Danmu-resources.sh */,
+				1ED241801C044A9987A3019B89357ABD /* Pods-Danmu-umbrella.h */,
+				FA60668FEB054C7FD59E1C4444C54459 /* Pods-Danmu.debug.xcconfig */,
+				5BA4E08259458788423E90E681D075B1 /* Pods-Danmu.release.xcconfig */,
+			);
+			name = "Pods-Danmu";
+			path = "Target Support Files/Pods-Danmu";
+			sourceTree = "<group>";
+		};
+		BC2A32E0AE3FE988BE94F65A03228D77 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				344AAC3737EC10F42C7085E847EF636A /* HJDanmaku.framework */,
+				49CDEF9991E485C7591A2AAE8AECB90B /* Pods_Danmu.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		16330BC4425EC7DBCC4CDAD982485614 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				057951B79A554C2284B860AC8DD80611 /* HJDanmaku-umbrella.h in Headers */,
+				8E22B4BCECBB1854E755A9FBB9036C66 /* HJDanmaku.h in Headers */,
+				DCDCD6DE127E26C002EAE3B33C341160 /* HJDanmakuCell.h in Headers */,
+				39D9604866661EA4269722257006BA75 /* HJDanmakuConfiguration.h in Headers */,
+				1C92096FC3E2C9AC23EFE9F60B86CEBB /* HJDanmakuDefines.h in Headers */,
+				950F7FCDF3C0764B38C68E4D97885CEE /* HJDanmakuModel.h in Headers */,
+				87FE46FD7E5A368806B0B268EAFA5C79 /* HJDanmakuView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D261B93C6CE65426A9CA953683D3FA82 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49E4EC87FCA0165441158F43A9DB8FDA /* Pods-Danmu-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4657A5C41E8D95152DEE4858A69AD640 /* Pods-Danmu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D8E04A5E620BDD50C9DB521CC189C4A4 /* Build configuration list for PBXNativeTarget "Pods-Danmu" */;
+			buildPhases = (
+				27D757CE4C07B77EFBC5FAF44E3D6486 /* Sources */,
+				5628149A519D930236DD28B20D419CF0 /* Frameworks */,
+				D261B93C6CE65426A9CA953683D3FA82 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3B4F818E553B8E73C9B5F5B089ABA447 /* PBXTargetDependency */,
+			);
+			name = "Pods-Danmu";
+			productName = "Pods-Danmu";
+			productReference = 49CDEF9991E485C7591A2AAE8AECB90B /* Pods_Danmu.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C3D0E84F7D3FA060E7A76AADD24CB508 /* HJDanmaku */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A443D71EA406E329FAAD7CADC32C9F0 /* Build configuration list for PBXNativeTarget "HJDanmaku" */;
+			buildPhases = (
+				5C5B8E9F1E0D212697B76C7E0836CDAB /* Sources */,
+				106C14354FC7037696A231A4210DD84E /* Frameworks */,
+				16330BC4425EC7DBCC4CDAD982485614 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HJDanmaku;
+			productName = HJDanmaku;
+			productReference = 344AAC3737EC10F42C7085E847EF636A /* HJDanmaku.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = BC2A32E0AE3FE988BE94F65A03228D77 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C3D0E84F7D3FA060E7A76AADD24CB508 /* HJDanmaku */,
+				4657A5C41E8D95152DEE4858A69AD640 /* Pods-Danmu */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		27D757CE4C07B77EFBC5FAF44E3D6486 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AF45DDC3152A2613EAD9BBEBCF6F5BC /* Pods-Danmu-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C5B8E9F1E0D212697B76C7E0836CDAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A035B8789FDBFBB50981023AC66903BB /* HJDanmaku-dummy.m in Sources */,
+				D9DDB6CEF647528B9F8B1808384F1E8A /* HJDanmakuCell.m in Sources */,
+				F54BA1E9E476BB213D1E5C26EE7F4E3B /* HJDanmakuConfiguration.m in Sources */,
+				D946B75D2880D27B8853D77A243E84C4 /* HJDanmakuModel.m in Sources */,
+				E9BC605598409D3EE6E10C6C825E0E37 /* HJDanmakuView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3B4F818E553B8E73C9B5F5B089ABA447 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = HJDanmaku;
+			target = C3D0E84F7D3FA060E7A76AADD24CB508 /* HJDanmaku */;
+			targetProxy = 1B9EEB9536C3B7F3C573847B940D010F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8604491F2C22EA416BE1120EA74B2C5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EEEE84E2ADD2015885D21F0516B2E8BD /* HJDanmaku.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/HJDanmaku/HJDanmaku-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HJDanmaku/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HJDanmaku/HJDanmaku.modulemap";
+				PRODUCT_NAME = HJDanmaku;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9D270C4A7019330240771CD4A3F672BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5BA4E08259458788423E90E681D075B1 /* Pods-Danmu.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Danmu/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Danmu/Pods-Danmu.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Danmu;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A92D418613317B102AEFC05E4AD8822D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA60668FEB054C7FD59E1C4444C54459 /* Pods-Danmu.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Danmu/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Danmu/Pods-Danmu.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Danmu;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B254DAA6CF0CE39F4A3D11B90A7E059A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		C150C132401C1D75A62D1EF8E9F13BF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EEEE84E2ADD2015885D21F0516B2E8BD /* HJDanmaku.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/HJDanmaku/HJDanmaku-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HJDanmaku/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HJDanmaku/HJDanmaku.modulemap";
+				PRODUCT_NAME = HJDanmaku;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E4B68EE12B21C47CB798D9B1ECA6D7A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4B68EE12B21C47CB798D9B1ECA6D7A7 /* Debug */,
+				B254DAA6CF0CE39F4A3D11B90A7E059A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A443D71EA406E329FAAD7CADC32C9F0 /* Build configuration list for PBXNativeTarget "HJDanmaku" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8604491F2C22EA416BE1120EA74B2C5A /* Debug */,
+				C150C132401C1D75A62D1EF8E9F13BF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D8E04A5E620BDD50C9DB521CC189C4A4 /* Build configuration list for PBXNativeTarget "Pods-Danmu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A92D418613317B102AEFC05E4AD8822D /* Debug */,
+				9D270C4A7019330240771CD4A3F672BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

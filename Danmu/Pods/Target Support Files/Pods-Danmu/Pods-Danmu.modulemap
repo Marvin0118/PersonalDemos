@@ -1,0 +1,6 @@
+framework module Pods_Danmu {
+  umbrella header "Pods-Danmu-umbrella.h"
+
+  export *
+  module * { export * }
+}
