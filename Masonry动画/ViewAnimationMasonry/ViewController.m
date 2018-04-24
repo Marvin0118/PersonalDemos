@@ -7,11 +7,14 @@
 //
 
 #import "ViewController.h"
+#import "CustomView.h"
 #import <Masonry/Masonry.h>
 
 @interface ViewController ()
 
 @property(nonatomic,strong) UIView *subView;
+
+@property(nonatomic,strong) CustomView *cusView;
 
 @end
 
@@ -20,7 +23,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.subView = [[UIView alloc]init];
-    self.subView.backgroundColor = [UIColor blueColor];
+    self.subView.backgroundColor = [UIColor redColor];
     [self.view addSubview:self.subView];
     
     [self.subView mas_makeConstraints:^(MASConstraintMaker *make) {
@@ -29,6 +32,8 @@
         make.top.mas_equalTo(self.view).offset(100);
     }];
     
+    self.cusView = [[CustomView alloc]initWithFrame:CGRectMake(20, 200, 300, 200)];
+    [self.view addSubview:self.cusView];
 }
 
 
@@ -41,9 +46,11 @@
     [UIView animateWithDuration:0.25 animations:^{
         [self.subView mas_updateConstraints:^(MASConstraintMaker *make) {
             make.width.mas_equalTo(200);
-        }];
+        }];    
         [self.view layoutIfNeeded];
     }];
+    
+    [self.cusView show];
 }
 
 @end
