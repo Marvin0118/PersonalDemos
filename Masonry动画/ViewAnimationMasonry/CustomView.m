@@ -53,7 +53,7 @@
 //    _wid.mas_equalTo(@0);
 //    // 立即让约束生效
 //    [self layoutIfNeeded];
-    _wid.mas_equalTo(@150);
+    _wid.mas_equalTo(150.5f);
     [UIView animateWithDuration:5.0f animations:^{
         [self layoutIfNeeded];
     }];
