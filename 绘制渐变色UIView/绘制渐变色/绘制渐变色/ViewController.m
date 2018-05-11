@@ -41,11 +41,11 @@
 - (CAGradientLayer *)grayLayer{
     if (_grayLayer == nil) {
         _grayLayer = [CAGradientLayer layer];
-        _grayLayer.colors = @[(id)[UIColor colorWithHexString:@"#50DEFF"].CGColor,
+        _grayLayer.colors = @[(id)[UIColor colorWithHexString:@"#12300F"].CGColor,
                             (id)[UIColor colorWithHexString:@"#20B8FF"].CGColor];
         _grayLayer.locations = @[@(0.0f),@(1.0f)];
-        _grayLayer.startPoint = CGPointMake(0, 0);
-        _grayLayer.endPoint = CGPointMake(1, 0);
+        _grayLayer.startPoint = CGPointMake(0, 1);
+        _grayLayer.endPoint = CGPointMake(1, 1);
     }
     return _grayLayer;
 }
